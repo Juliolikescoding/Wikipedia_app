@@ -1,6 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    background: url("https://giant.gfycat.com/GrandiosePoshAntbear.gif");  /*1*/
+    background-repeat: no-repeat; /*8*/
+    background-size: cover;/*9*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*2*/
+    color: lightblue; /*3*/
+    cursor: url('http://www.rw-designer.com/cursor-view/29800.gif'), auto; /*4*/
 }
 
 header{
@@ -11,9 +17,28 @@ header{
     margin-top: 5vh;
 
 }
-header img{
-    min-width: 30vw;
+
+img{/*5*/
     max-width: 30vw;
-    min-height: 40vh;
     max-height: 40vh;
+}
+
+.output /*6*/{
+    background: linear-gradient(rgb(6, 48, 95), black);
+    font-family: 'Merienda', cursive;
+    color: lightskyblue;
+} 
+
+a /*7*/{
+    color: aliceblue;
+    font-style: italic;
+}
+
+
+button{ /*10*/
+          color: rgb(189, 176, 0); 
+          background: transparent;
+          border: 2px solid rgb(189, 176, 0);
+          border-radius: 6px; 
+
 }

@@ -34,6 +34,8 @@ function wikiSearch(){
 }
 
 searchButton.addEventListener('click', wikiSearch)
+
+
 randomButton.addEventListener('click', function(e){
     window.open(`${wiki_link}${randomEndpoint}`)
 })
