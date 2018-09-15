@@ -23,7 +23,8 @@ function wikiSearch(){
                 <li>
                 <a href="${data[3][i]}">${data[1][i]}</a>
                 <p>${data[2][i]}</p>
-                </li>`
+                </li>
+                <br>`
                 console.log(i)
             }
         },
@@ -34,6 +35,11 @@ function wikiSearch(){
 }
 
 searchButton.addEventListener('click', wikiSearch)
+searchTerm.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      wikiSearch();
+    }
+});
 
 
 randomButton.addEventListener('click', function(e){

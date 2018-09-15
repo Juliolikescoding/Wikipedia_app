@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("https://giant.gfycat.com/GrandiosePoshAntbear.gif");  /*1*/
+    background: url('../img/blue-tech-wallpaper-7.jpg')content-box no-repeat;  /*1*/
     background-repeat: no-repeat; /*8*/
     background-size: cover;/*9*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*2*/
     color: lightblue; /*3*/
-    cursor: url('http://www.rw-designer.com/cursor-view/29800.gif'), auto; /*4*/
+    /* cursor: url('http://www.rw-designer.com/cursor-view/29800.gif'), auto; /*4*/
 }
 
 header{
@@ -24,9 +24,9 @@ img{/*5*/
 }
 
 .output /*6*/{
-    background: linear-gradient(rgb(6, 48, 95), black);
+    background: linear-gradient(to right, #00000000, #00000000, rgba(0, 0, 0, 0.90));
     font-family: 'Merienda', cursive;
-    color: lightskyblue;
+    color: #ffffffff;
 } 
 
 a /*7*/{
@@ -36,9 +36,51 @@ a /*7*/{
 
 
 button{ /*10*/
-          color: rgb(189, 176, 0); 
+          color: #ffffffff;
           background: transparent;
-          border: 2px solid rgb(189, 176, 0);
-          border-radius: 6px; 
+          background-image: linear-gradient(to right, #00000000, #00000000, rgba(0, 0, 0, 0.90)) ; 
+          font-size: 1.5rem;
+          border-bottom: 3px solid rgba(255, 255, 255, 0.342);
+          border-top: none;
+          border-left: none;
+          border-right: 3px solid  rgba(255, 255, 255, 0.342);
+          box-shadow: 5px 5px rgba(0, 0, 0, 0.425);
+          border-radius: 50px;
+          height: 5vh;
+          width: 5vw;
 
 }
+
+.searchTerm{
+    color: #ffffffff;
+    position: center;
+    background: transparent;
+    background-image: linear-gradient(to right, #00000000, #00000000, rgba(0, 0, 0, 0.90)) ; 
+    border-bottom: 3px solid rgba(255, 255, 255, 0.342);
+    border-top: none;
+    border-left: none;
+    border-right: 3px solid rgba(255, 255, 255, 0.342);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.425);
+    border-radius: 50px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: auto;
+    height: 5vh;
+    width: 20vw;
+    font-size: 1.5rem;
+    background: transparent;
+    caret-color: gold;
+    text-align: center;
+
+}
+    
+.searchTerm::placeholder{
+    color: #ffffffff;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+
